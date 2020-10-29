@@ -2,11 +2,17 @@
 
 Bootstrap a developer-friendly NextJS app configured with:
 
-- [Typescript](https://www.typescriptlang.org/)
-- Linting with [ESLint](https://eslint.org/)
-- Formatting with [Prettier](https://prettier.io/)
-- Linting, typechecking and formatting on by default using [`husky`](https://github.com/typicode/husky) for commit hooks
-- Testing with [Jest](https://jestjs.io/) and [`react-testing-library`](https://testing-library.com/docs/react-testing-library/intro)
+- [**Typescript**](https://www.typescriptlang.org/) for type safety
+- [**ESLint**](https://eslint.org/) for linting
+- [**Prettier**](https://prettier.io/) for formatting
+- [`**husky**`](https://github.com/typicode/husky) for linting, typechecking and formatting with commit hooks
+- [**Jest**](https://jestjs.io/) and [`react-testing-library`](https://testing-library.com/docs/react-testing-library/intro) for testing
+- [**Styled Components**](https://styled-components.com/) for CSS-in-JS styling and theming
+- [**Storybook**](https://storybook.js.org/) with a "theme getter" (`t("colors.white.1000")`)
+- [**Google Fonts**](https://fonts.google.com) setup in NextJS app and Storybook
+- [**Conventional Commits**](https://www.conventionalcommits.org/en/v1.0.0/) for easy commits that follow conventional standard.
+- [**Semantic Release**](https://github.com/semantic-release/semantic-release) for automated app versioning
+
 
 ## Deploy your own
 
