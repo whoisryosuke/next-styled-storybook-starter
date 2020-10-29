@@ -30,6 +30,7 @@ workflows:
             branches:
               only:
                 - master
+                - main
                 - beta
           requires:
             - test_node_10
