@@ -25,3 +25,28 @@ yarn create next-app --example with-typescript-eslint-jest with-typescript-eslin
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+# Storybook
+
+## MDX Template
+
+```mdx
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+import { Checkbox } from './Checkbox';
+
+<Meta title="MDX/Checkbox" component={Checkbox} />
+
+# Checkbox
+
+With `MDX` we can define a story for `Checkbox` right in the middle of our Markdown documentation.
+
+<Canvas>
+  <Story name="all checkboxes">
+    <form>
+      <Checkbox id="Unchecked" label="Unchecked" />
+      <Checkbox id="Checked" label="Checked" checked />
+      <Checkbox appearance="secondary" id="second" label="Secondary" checked />
+    </form>
+  </Story>
+</Canvas>
+```
