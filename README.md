@@ -31,8 +31,8 @@ Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&ut
 ## MDX Template
 
 ```mdx
-import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
-import { Checkbox } from './Checkbox';
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks'
+import { Checkbox } from './Checkbox'
 
 <Meta title="MDX/Checkbox" component={Checkbox} />
 
